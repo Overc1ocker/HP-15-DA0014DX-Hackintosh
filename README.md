@@ -10,11 +10,12 @@ This is my attempt to get macOS Big Sur running on a relatively new HP 15 inch l
 - Built-in card reader (usb device)  
 - Battery readout (with SMCbatterymanager kext)
 - Intel 7265 wifi and bluetooth (Note: this is not the original card that came with the laptop.)
+- Brightness control
+- Sleep  
 - Trackpad partially works. Buttons do not click.  
 
 **Untested**
 - Graphics Acceleration  
-- Brightness control
 - Webcam  
 - Using headphone jack as a microphone input 
 - Touchscreen (Don't anticipate this to work as real macs do not feature touchscreens)  

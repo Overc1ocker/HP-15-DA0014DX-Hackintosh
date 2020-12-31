@@ -46,6 +46,14 @@
 				<key>Path</key>
 				<string>SSDT-HPET.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-RTC0-HP.aml</string>
+				<key>Path</key>
+				<string>SSDT-RTC0-HP.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -556,6 +564,24 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCBatteryManager</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SMCBatteryManager.kext</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -845,7 +871,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -1019,7 +1046,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=16 npci=0x2000</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=16 </string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1092,7 +1119,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>FVF853902GU0000JA</string>
+			<string>ADD logic board SN here</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1100,11 +1127,11 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,4</string>
+			<string>(add smbios here)</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFY1YZQL40Y</string>
+			<string>New SN here</string>
 			<key>SystemUUID</key>
-			<string>073A3C94-1ECF-4C8F-BF81-28D62887EA80</string>
+			<string>Add UUID here</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

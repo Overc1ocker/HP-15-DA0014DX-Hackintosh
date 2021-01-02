@@ -15,13 +15,14 @@ This is my attempt to get macOS Big Sur running on a relatively new HP 15 inch l
 - Webcam  
 - Headphone jack line in
 - Built in Microphone
-- Trackpad partially works. Buttons do not click.  
+- Graphics acceleration  
+- Ethernet  
+- Trackpad (buttons do not work)  
 
-**Untested**
-- Graphics Acceleration   
+**Not working**  
 - Touchscreen (Don't anticipate this to work as real macs do not feature touchscreens)  
-- Ethernet
-
+- Brightness keys on keyboard   
+- Trackpad buttons  
 -------------------------------------------  
 
 **Notes**:  

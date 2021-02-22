@@ -1,4 +1,4 @@
-# HP-15-DA0014DX-Hackintosh
+# HP-15-DA0XXX-Hackintosh
 
 This is my attempt to get macOS Big Sur running on a relatively new HP 15 inch laptop. The model number is 15-DA0014DX.  
 
@@ -36,6 +36,7 @@ See getting started with ACPI for help.   https://dortania.github.io/Getting-Sta
 - You must understand how opencore is configured before downloading. 
 
 - The included EFI folder contains opencore 0.6.4 with all SSDTs, kexts, and drivers. The resources folder is missing which only matters if you would like a graphical selection screen.   https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html
+- More specifics can be found in the SPECIFICS folder.
 ----------------------
 
 **Specs**  

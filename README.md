@@ -43,7 +43,7 @@ See getting started with ACPI for help.   https://dortania.github.io/Getting-Sta
 **CPU**     Intel Kaby lake -r i5-8250u  
 **GPU**     Intel UHD graphics 620  
 **RAM**     12GB samsung DDR4-2400 ram (8+4gb)  
-**SSD**     128GB Sandisk M.2 NVME SSD  
+**SSD**     Seagate baraccuda P5 500GB NVME SSD (Originally 128GB Sandisk M.2 SATA SSD)  
 **WIFI**    Intel AC7265 m.2 wifi (Originally Realtek RTL8723DE)  
 **Ethernet** RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller  
 **Audio**   ALC236 HD audio and intel Sunrise point HDMI audio  

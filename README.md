@@ -25,17 +25,17 @@ This is my attempt to get macOS Big Sur running on a relatively new HP 15 inch l
 -------------------------------------------  
 
 **Notes**:  
-- You will need a RTC (SSDT-RTC0) fix in order to get this laptop to boot ANYTHING macOS related. Just like the HP 250 G6, the RTC is disabled and cannot be enabled easily.  
+- You will need a RTC (SSDT-RTC0) fix in order to get this laptop to boot ANYTHING macOS related. Just like the HP 250 G6, the RTC is disabled and cannot be enabled easily. (included)  
 See getting started with ACPI for help.   https://dortania.github.io/Getting-Started-With-ACPI/
 
-- You will also need to compile your own SSDT-EC (precompiled does not seem to work as well). Use SSDTTIME to do this.
+- You will also need to compile your own SSDT-EC (precompiled does not seem to work as well). Use SSDTTIME to do this. (included)  
 
-- You will need to add your own SMBIOS. Follow the opencore guide for more info.
+- You will need to add your own SMBIOS. Follow the opencore guide for more info. (important!)  
 
-- You must understand how opencore is configured before downloading. 
+- You must understand how opencore is configured before downloading.  (important!)  
 
 - The included EFI folder contains opencore 0.6.4 with all SSDTs, kexts, and drivers. The resources folder is missing which only matters if you would like a graphical selection screen.   https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html
-- More specifics can be found in the SPECIFICS folder.
+- More specifics can be found in the moreinfo folder.
 ----------------------
 
 **Specs**  

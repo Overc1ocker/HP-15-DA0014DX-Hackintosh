@@ -21,7 +21,7 @@ This is my attempt to get macOS Big Sur running on a relatively new HP 15 inch l
 
 **Not working**  
 - Touchscreen (Don't anticipate this to work as real macs do not feature touchscreens)  
-- Brightness keys on keyboard (Workaround included that uses FN+brightness keys onstead)
+- Brightness keys on keyboard (Workaround included that uses FN+brightness keys instead)
 -------------------------------------------  
 
 **Notes**:  

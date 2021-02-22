@@ -17,12 +17,11 @@ This is my attempt to get macOS Big Sur running on a relatively new HP 15 inch l
 - Built in Microphone
 - Graphics acceleration  
 - Ethernet  
-- Trackpad (buttons do not work)  
+- Trackpad  
 
 **Not working**  
 - Touchscreen (Don't anticipate this to work as real macs do not feature touchscreens)  
-- Brightness keys on keyboard   
-- Trackpad buttons  
+- Brightness keys on keyboard (Workaround included that uses FN+brightness keys onstead)
 -------------------------------------------  
 
 **Notes**:  

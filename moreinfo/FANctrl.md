@@ -1,13 +1,13 @@
 
-EC based fan control (I may send a PR to smcsuperio)
-Register 0x16 (21) --> Manual fan control. This resets after a sleep/wake cycle
-Options:
+EC based fan control (I may send a PR to smcsuperio)  
+Register 0x16 (21) --> Manual fan control. This resets after a sleep/wake cycle  
+Options:  
 - 0x0 (Disabled)
 - 0x1 (Manual fan control)
 
-Register 0x1A (25) --> Fan speed 
+Register 0x1A (25) --> Fan speed   
 
-Speeds:
+Speeds:  
 55  
 54  
 53 (Used by EC, so skip this value if you want to linearly ramp up the fan)  

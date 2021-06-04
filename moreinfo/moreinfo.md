@@ -14,8 +14,10 @@ Make sure you fully understand what you are doing before you try. DO NOT TRUST R
 Hint: The "setup" EFI variable is locked, however the "CPUsetup" variable is not. Use RU.exe to edit  
 Set 0x3C to 0x0 to disable CFGlock   
 I'm not responsible for bricked computers  
+After, remove CFG-Lock quirks from opencore  
 
 **If you have removed CFG lock, why not set DVMT-PreAlloc to 64mb**  
 This will bring your IGPU to FULL POWER!  
 This setting exists in the "SAsetup" EFI var (unlocked)  
 Set 0xDF to 0x2 for the required 64MB of memory   
+After this, remove the stolenmem patches  

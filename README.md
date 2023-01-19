@@ -11,17 +11,19 @@ This is my attempt to get macOS Big Sur running on a relatively new HP 15 inch l
 - Battery readout (with SMCbatterymanager kext)
 - Intel 7265 wifi and bluetooth (Note: this is not the original card that came with the laptop.)
 - Brightness control
-- Sleep 
+- Sleep (Lid sleep as well)
 - Webcam  
 - Headphone jack line in
 - Built in Microphone
 - Graphics acceleration  
 - Ethernet  
 - Trackpad  
+- Brightness keys on keyboard 
+- Lid Sleep
 
 **Not working**  
 - Touchscreen (Don't anticipate this to work as real macs do not feature touchscreens)  
-- Brightness keys on keyboard (Workaround included that uses FN+brightness keys instead)
+
 -------------------------------------------  
 
 **Notes**:  
@@ -34,7 +36,7 @@ See getting started with ACPI for help.   https://dortania.github.io/Getting-Sta
 
 - You must understand how opencore is configured before downloading.  (important!)  
 
-- The included EFI folder contains opencore 0.6.4 with all SSDTs, kexts, and drivers. The resources folder is missing which only matters if you would like a graphical selection screen.   https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html
+- The included EFI folder contains opencore 0.8.4 with all SSDTs, kexts, and drivers. The resources folder is missing which only matters if you would like a graphical selection screen.   https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html
 - More specifics can be found in the moreinfo folder.
 ----------------------
 
@@ -50,7 +52,7 @@ See getting started with ACPI for help.   https://dortania.github.io/Getting-Sta
 **Trackpad**   Synaptics PS2 trackpad and Keyboard   
 **Webcam**   HP truvision USB webcam (built-in)  
 **Screen**   15-inch BOE touchscreen with USB based touchscreen support (G2Touch Multi-Touch by G2TSP)  
-**BIOS**  Bios revision f.33 (August 2020, Latest)
+**BIOS**  Bios revision f.42 (August 2022, Latest)
  
 
 **Credits**

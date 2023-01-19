@@ -11,7 +11,7 @@ This is my attempt to get macOS Big Sur running on a relatively new HP 15 inch l
 - Battery readout (with SMCbatterymanager kext)
 - Intel 7265 wifi and bluetooth (Note: this is not the original card that came with the laptop.)
 - Brightness control
-- Sleep (Lid sleep as well)
+- Sleep 
 - Webcam  
 - Headphone jack line in
 - Built in Microphone
@@ -23,6 +23,7 @@ This is my attempt to get macOS Big Sur running on a relatively new HP 15 inch l
 
 **Not working**  
 - Touchscreen (Don't anticipate this to work as real macs do not feature touchscreens)  
+- HDMI devices must be disconnected and reconnected if the computer goes to sleep
 
 -------------------------------------------  
 

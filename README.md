@@ -1,6 +1,8 @@
 # HP-15-DA0XXX-Hackintosh
 
-This is my attempt to get macOS Big Sur running on a relatively new HP 15 inch laptop. The model number is 15-DA0014DX.  
+This is my attempt to get macOS Monterey running on a relatively new HP 15 inch laptop. The model number is 15-DA0014DX. 
+
+Note: I no longer have this laptop as I have upgraded to a Dell Latitude 5590. I will be posting a EFI for that at some point.
 
 **What Works?**
 
